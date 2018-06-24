@@ -1,0 +1,100 @@
+body{
+background-color: #4E5C4C;
+}
+table{
+  margin: auto;
+  padding: 10px;
+  }
+.table a{
+  display: block;
+  color: #FFF;
+  text-decoration: none;
+  width: 100%;
+}
+.button{
+background-color: #000;
+color: #FFF;
+border: none;
+border-right: solid #808080;
+border-bottom: solid #808080;  
+border-radius: 11px; 
+padding: 10px 15px;
+}
+.button:hover{
+background-color: #808080;
+}
+
+/*.menu td{
+  padding: 10px 15px;
+  background-color: #000;
+  color: #FFF;
+  border-bottom: solid #808080;
+  border-right: solid #808080;
+  border-radius: 11px;
+  }
+.menu td:hover{
+  background-color: #808080
+  } */
+.kreska{
+border-top: solid #333 2px;
+}
+/*a{
+color: #FFF;
+text-decoration: none;
+} */
+.zdjecia{
+display: grid;
+grid-row-gap: 20px;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-auto-flow: row;
+justify-content: center; 
+}
+.zdj{
+height: auto;
+width: 95%;
+}
+.zdj:active + img.hover{
+display: block;
+height: 718px;
+width: 1280px;
+position: fixed;
+z-index: 2;
+margin: auto;
+left: 60px; 
+top: 74px;
+}
+img.hover{
+display: none;
+}
+img.hover:hover{
+display: block;
+height: 718px;
+width: 1280px;
+position: fixed;
+z-index: 2;
+margin: auto;
+left: 60px; 
+top: 74px;
+}
+img.hover:active{
+display: none;
+}
+@media only screen and (max-width: 1280px){
+	.zdjecia{
+display: grid;
+grid-row-gap: 20px;
+grid-template-columns: 1fr 1fr 1fr;
+grid-auto-flow: row;
+justify-content: center;
+}
+}
+
+
+
+
+
+
+
+
+
+1000px
